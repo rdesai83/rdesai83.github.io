@@ -45,7 +45,27 @@
             animation-delay: 3.7s;
 
         }
-  
+
+
+        .sidebar {
+            height: 200px;
+            width: 150px;
+            position: -webkit-sticky; /* for Safari users */
+            position: sticky;
+            top: 0px;
+            float: right;
+            margin-top: 100px;
+            padding-top: 40px;
+            background-color: lightblue;
+        }
+
+        .sidebar div {
+            padding: 8px;
+            font-size: 24px;
+            display: block;
+        }
+
+            
         @keyframes LineAnimation {
             to {
                 stroke-dashoffset: 0px;
@@ -66,6 +86,12 @@
         <path id="lastName" d="M762.404 2L711 126.404C770.057 20.9253 831.887 -23.319 836.026 36.3267C839.077 80.3089 808.73 115.157 792.581 130.427C786.449 136.225 778.493 139.849 770.055 139.745C754.957 139.56 744.372 133.861 733.217 119.587C799.473 116.512 844.081 100.802 869.787 92.077C849.014 99.999 845.868 116.198 876.757 126.404C907.646 136.609 995.304 99.05 977.387 92.077C959.471 85.1041 963.486 190.58 957.348 193.353C947.183 207.525 933.514 213.474 932.735 205.282C1030.05 96.0941 1097.41 62.48 1061.68 92.077C1025.95 121.674 1035.46 143.723 1071.05 113.501C1114.33 138.914 1136.9 133.161 1174.51 92.077C1159.87 144.662 1193.41 141.539 1315 87.6949" stroke="black" stroke-width="10"/>
         </g>
     </svg>
+
+    <div class="sidebar">
+        <div>Menu Item 1</div>
+        <div>Menu Item 2</div>
+        <div>Menu Item 3</div>
+    </div>
            
         
 </body>
