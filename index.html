@@ -10,11 +10,119 @@
 
     <style>
         body{
-            background-color: 	#282828; 
+            background-color: 	black; 
         }
          svg {
             margin: 100px;
         }
+
+        #right_h {
+            stroke-dasharray: 1615.7269287109375px;
+            stroke-dashoffset: 1615.7269287109375px;
+            animation: LineAnimation 3s ease forwards;
+            animation-delay: 1s;
+
+        }
+
+        #left_h {
+            stroke-dasharray: 1615.7269287109375px;
+            stroke-dashoffset: 1615.7269287109375px;
+            animation: LineAnimation 3s ease forwards;
+            animation-delay: 1.3s;
+
+        }
+
+        #h_cross {
+            stroke-dasharray: 1615.7269287109375px;
+            stroke-dashoffset: 1615.7269287109375px;
+            animation: LineAnimation 3s ease forwards;
+            animation-delay: 1.5s;
+
+        }
+
+        #ello {
+            stroke-dasharray: 1615.7269287109375px;
+            stroke-dashoffset: 1615.7269287109375px;
+            animation: LineAnimation 3s ease forwards;
+            animation-delay: 1.9s;
+
+        }
+
+        #s_vector {
+            stroke-dasharray: 1615.7269287109375px;
+            stroke-dashoffset: 1615.7269287109375px;
+            animation: LineAnimation 3s ease forwards;
+            animation-delay: 2.6s;
+
+        }
+
+        #lo_vector {
+            stroke-dasharray: 1615.7269287109375px;
+            stroke-dashoffset: 1615.7269287109375px;
+            animation: LineAnimation 3s ease forwards;
+            animation-delay: 2.9s;
+
+        }
+
+        #an_vector {
+            stroke-dasharray: 1615.7269287109375px;
+            stroke-dashoffset: 1615.7269287109375px;
+            animation: LineAnimation 3s ease forwards;
+            animation-delay: 3.1s;
+
+        }
+
+        #i_vector {
+            stroke-dasharray: 1615.7269287109375px;
+            stroke-dashoffset: 1615.7269287109375px;
+            animation: LineAnimation 3s ease forwards;
+            animation-delay: 3.3s;
+
+        }
+
+        #e_vector {
+            stroke-dasharray: 1615.7269287109375px;
+            stroke-dashoffset: 1615.7269287109375px;
+            animation: LineAnimation 3s ease forwards;
+            animation-delay: 3.7s;
+
+        }
+
+        #second_s_vector {
+            stroke-dasharray: 1615.7269287109375px;
+            stroke-dashoffset: 1615.7269287109375px;
+            animation: LineAnimation 3s ease forwards;
+            animation-delay: 3.9s;
+
+        }
+
+        #i_dot {
+            stroke-dasharray: 1615.7269287109375px;
+            stroke-dashoffset: 1615.7269287109375px;
+            animation: LineAnimation 3s ease forwards;
+            animation-delay: 4.1s;
+
+        }
+
+        #exclamation_mark {
+            stroke-dasharray: 1615.7269287109375px;
+            stroke-dashoffset: 1615.7269287109375px;
+            animation: LineAnimation 3s ease forwards;
+            animation-delay: 4.3s;
+
+        }
+
+        #exclamation_dot {
+            stroke-dasharray: 1615.7269287109375px;
+            stroke-dashoffset: 1615.7269287109375px;
+            animation: LineAnimation 3s ease forwards;
+            animation-delay: 4.5s;
+
+        }
+
+
+
+        /*
         #firstName {
             stroke-dasharray: 1615.7269287109375px;
             stroke-dashoffset: 1615.7269287109375px;
@@ -53,7 +161,7 @@
         .sidebar {
             height: 200px;
             width: 150px;
-            position: -webkit-sticky; /* for Safari users */
+            position: -webkit-sticky; /* for Safari users
             position: sticky;
             top: 0px;
             float: left;
@@ -61,13 +169,13 @@
             padding-top: 40px;
             background-color: lightblue;
         }
-
+        
         .sidebar div {
             padding: 8px;
             font-size: 24px;
             display: block;
         }
-
+        */
             
         @keyframes LineAnimation {
             to {
@@ -76,17 +184,34 @@
             
         } 
         
-        #paragraph{
+        /* #paragraph{
             margin-left: 170px;
-        }
+        } */
 
 
     </style>
 </head>
 <body>
 
+    <svg width="1063" height="453" viewBox="0 0 1063 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path id = "exclamation_dot" d="M1058 305L1058 318.788" stroke="#8b959e" stroke-width="5"/>
+        <path id = "exclamation_mark" d="M1061.6 150.119C1055.85 202.591 1047.8 304.161 1061.6 290.668" stroke="#8b959e" stroke-width="5"/>
+        <path id = "i_dot" d="M917 264.5L928 260" stroke="#8b959e" stroke-width="5"/>
+        <path id = "second_s_vector" d="M1027.25 278.199C1018.64 263.565 991.445 267.142 1013.33 294.553C1017.23 299.427 1020.13 303.52 1022.24 306.946M1022.24 306.946C1027.25 315.075 1029.1 321.897 1022.24 323.174C1015.38 324.451 1004.72 316.718 1022.24 306.946Z" stroke="#8b959e" stroke-width="5"/>
+        <path id = "e_vector" d="M947.391 285.203C950.174 292.187 970.866 303.446 982.455 285.203C990.247 272.936 961.862 266.885 947.391 276.514C934.59 285.032 922.923 329.405 959.079 320.468C982.455 314.689 1011.36 285.203 1011.36 285.203" stroke="#8b959e" stroke-width="5"/>
+        <path id = "i_vector" d="M922.72 271.758C918.453 290.668 912.48 324.196 922.72 307.023" stroke="#8b959e" stroke-width="5"/>
+        <path id = "an_vector" d="M783.534 270.475C783.534 263.581 764.539 254.892 747.099 285.808C727.157 321.159 755.057 323.083 764.539 320.593C789.955 313.917 803.313 275.586 796.634 266.897C789.955 258.209 781.365 371.498 835.223 291.461C862.051 251.594 863.237 272.008 848.395 313.917C858.599 283.593 891.25 234.719 891.25 285.808C891.25 334.188 916.611 299.946 922.418 270.475" stroke="#8b959e" stroke-width="5"/>
+        <path id = "lo_vector" d="M644.972 276.044C644.972 276.044 751.264 191.07 694.236 132.938C637.208 74.8062 643.434 257.134 643.434 257.134C643.434 257.134 644.656 312.239 664.027 320.509C683.399 328.779 692.328 294.954 710.223 276.044C728.118 257.134 746.013 293.618 728.118 308.754C710.223 323.889 698.708 286.981 701.674 292.202" stroke="#8b959e" stroke-width="5"/>
+        <path id = "s_vector" d="M689.051 75.0485C598.887 -95.9238 441.486 71.8151 462.609 148.785C483.731 225.755 679.968 295.268 643.234 365.282C606.501 435.295 529.37 411.285 529.37 365.282C529.37 319.278 563.022 257.867 585.908 232.915" stroke="#8b959e" stroke-width="5"/>
+        <path id = "ello" d="M192.807 255.885C200.413 259.803 217.766 264.799 223.554 249.262C230.79 229.841 172.907 241.574 187.934 274.306C201.152 303.095 354.353 256.317 317.896 123.776C281.438 -8.76452 234.967 279.475 277.542 290.66C320.116 301.846 404.996 222.175 382.04 131.691C361.17 49.4273 307.931 185.048 338.208 271.217C351.145 308.037 369.86 287.572 378.28 265.106M378.28 265.106C380.587 258.951 382.04 246.679 392.615 245.663C425.589 242.494 416.965 283.314 397.485 284.848C378.005 286.381 378.28 265.106 378.28 265.106Z" stroke="#ff1423" stroke-width="5"/>
+        <path id = "h_cross" d="M162.056 268.392C87.6618 269.584 -45.4323 278.511 17.3486 304.679" stroke="#ff1423" stroke-width="5"/>
+        <path id = "left_h" d="M185 89.7173C159.91 72.7718 157.075 360.8 172.455 452" stroke="#ff1423" stroke-width="5"/>
+        <path id = "right_h" d="M35.9962 91.2129C52.4927 196.05 50.6505 266.269 33.3243 409.392" stroke="#ff1423" stroke-width="5"/>
+    </svg>
+        
 
-    <svg width="500" height="215" viewBox="0 0 1318 215" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <!-- <svg width="500" height="215" viewBox="0 0 1318 215" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g id="Group 6">
         <path id="firstName" d="M43.9245 6L5 108.064C26.5352 47.1022 41.2705 19.9093 84.0875 19.9093C98.3333 19.9093 106.171 34.687 56.8403 64.2685C77.0809 123.541 109.262 123.141 158.044 79.4935C146.44 160.045 196.812 70.0148 195.022 79.4935C193.233 88.9723 217.515 130.104 261.017 79.4935C304.519 28.8827 189.659 208.348 207.938 209C248.234 131.452 279.618 100.935 357.974 79.4935C345.413 120.645 359.903 113.646 396.014 86.8241C402.405 152.274 529.811 9.46561 511.018 19.9093C492.225 30.3529 480.359 115.976 465.017 116.522C465.017 116.522 454.047 96.4102 465.017 96.4102C475.986 96.4102 545.5 97.3696 547.466 72.5389C522.661 107.802 531.896 113.327 554.012 96.4102C576.128 79.4935 570.464 115.801 587.983 108.064C614.876 101.61 623.921 93.6788 640 79.4935" stroke="white" stroke-width="10"/>
         <path id="i_dot" d="M253.471 21.2988L296.653 17.2852" stroke="white" stroke-width="10"/>
@@ -170,7 +295,7 @@
                 </ul>
             </canvas>
         </div>
-    </div>
+    </div> -->
            
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="./jquery.tagcanvas.js"></script>
